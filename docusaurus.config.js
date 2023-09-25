@@ -99,7 +99,7 @@ const config = {
                         label: 'Governance',
                     },
 
-                    { to: 'https://medium.com/@kusionstack', label: 'Blog', position: 'left' },
+                    { href: 'https://medium.com/@kusionstack', label: 'Blog', position: 'left' },
 
                     //{
                     //  type: 'docsVersionDropdown',
