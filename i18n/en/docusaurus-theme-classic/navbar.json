@@ -4,12 +4,16 @@
     "description": "The title in the navbar"
   },
   "item.label.UserDoc": {
-    "message": "Documentation",
+    "message": "Kusion",
     "description": "Navbar item with label UserDoc"
   },
-  "item.label.Reference": {
-    "message": "Reference",
-    "description": "Navbar item with label Reference"
+  "item.label.Operating": {
+    "message": "Operating",
+    "description": "Navbar item with label Operating"
+  },
+  "item.label.Ctrlmesh": {
+    "message": "ControllerMesh",
+    "description": "Navbar item with label Ctrlmesh"
   },
   "item.label.DevDoc": {
     "message": "Developing",

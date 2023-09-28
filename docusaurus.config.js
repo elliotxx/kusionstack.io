@@ -20,7 +20,7 @@ const config = {
 
     i18n: {
         defaultLocale: 'en',
-        locales: ['en', 'zh-CN'],
+        locales: ['en'],
     },
     scripts: [],
 
@@ -89,15 +89,21 @@ const config = {
                     {
                         type: 'docSidebar',
                         position: 'left',
-                        sidebarId: 'reference',
-                        label: 'Reference',
+                        sidebarId: 'operating',
+                        label: 'Operating',
                     },
                     {
                         type: 'docSidebar',
                         position: 'left',
-                        sidebarId: 'governance',
-                        label: 'Governance',
+                        sidebarId: 'ctrlmesh',
+                        label: 'Ctrlmesh',
                     },
+                    // {
+                    //     type: 'docSidebar',
+                    //     position: 'left',
+                    //     sidebarId: 'governance',
+                    //     label: 'Governance',
+                    // },
 
                     {
                         to: 'https://medium.com/@kusionstack',
@@ -106,23 +112,23 @@ const config = {
                         target: '_self'
                     },
 
-                    //{
+                    // {
                     //  type: 'docsVersionDropdown',
                     //  position: 'right',
                     //  dropdownActiveClassDisabled: true
-                    //},
+                    // },
+                    // {
+                    //     type: 'localeDropdown',
+                    //     position: 'right',
+                    //     dropdownItemsAfter: [
+                    //         {
+                    //             href: 'https://github.com/KusionStack/kusionstack.io/issues/25',
+                    //             label: 'Help Us Translate',
+                    //         },
+                    //     ],
+                    // },
                     {
-                        type: 'localeDropdown',
-                        position: 'right',
-                        dropdownItemsAfter: [
-                            {
-                                href: 'https://github.com/KusionStack/kusionstack.io/issues/25',
-                                label: 'Help Us Translate',
-                            },
-                        ],
-                    },
-                    {
-                        href: 'https://github.com/KusionStack/kusion',
+                        href: 'https://github.com/KusionStack',
                         className: 'header-github-link',
                         'aria-label': 'GitHub repository',
                         position: 'right',
@@ -136,12 +142,12 @@ const config = {
                         title: 'Document',
                         items: [
                             {
-                                label: 'Introduction',
+                                label: 'Kusion',
                                 to: '/docs/user_docs/intro/kusion-intro',
                             },
                             {
-                                label: 'Get Started',
-                                to: '/docs/user_docs/getting-started',
+                                label: 'ControllerMesh',
+                                to: '/docs/ctrlmesh/intro/',
                             },
                             {
                                 label: 'FAQ',
